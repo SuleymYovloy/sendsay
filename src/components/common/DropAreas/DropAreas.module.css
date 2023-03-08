@@ -1,0 +1,45 @@
+.dropAreaUpEquals {
+	top: -6px;
+
+	height: 42px;
+}
+
+.dropAreaBotEquals {
+	top: 36px;
+
+	height: 42px;
+}
+
+.dropAreaUpNumbers {
+	top: -6px;
+
+	height: 118px;
+}
+
+.dropAreaBotNumbers {
+	top: 112px;
+
+	height: 118px;
+}
+
+.dropAreaUpOperations {
+	top: -6px;
+
+	height: 35px;
+}
+
+.dropAreaBotOperations {
+	top: 29px;
+
+	height: 35px;
+}
+
+.dropAreaFullDisplay {
+	top: 0;
+
+	height: 66px;
+}
+
+.cursorDisabledDisplay {
+	cursor: not-allowed;
+}

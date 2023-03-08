@@ -1,0 +1,46 @@
+.dragField {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 243px;
+	height: 480px;
+
+	border: 2px dashed #C4C4C4;
+	border-radius: 6px;
+}
+
+.isDragged {
+	background-color: #F0F9FF;
+}
+
+.icon {
+	margin-bottom: 12px;
+}
+
+.text {
+	margin-bottom: 4px;
+
+	color: var(--primary);
+
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
+}
+
+.textSmall {
+	width: 106px;
+
+	text-align: center;
+
+	color: var(--light-grey);
+
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.dragContainer {
+	width: 243px;
+	height: 480px;
+}

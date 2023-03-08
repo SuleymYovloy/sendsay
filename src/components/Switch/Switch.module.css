@@ -1,0 +1,91 @@
+.switcherWrapper {
+	position: relative;
+}
+
+.switcher {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.slider {
+	position: relative;
+
+	display: flex;
+
+	width: 243px;
+	height: 38px;
+	margin-bottom: 30px;
+	padding: 1px;
+
+	cursor: pointer;
+
+	color: var(--dark-grey);
+	border-radius: 6px;
+	background-color: var(--grey-bg);
+
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 15px;
+}
+
+.track {
+	position: absolute;
+	z-index: 1000;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 108px;
+	height: 36px;
+	padding: 8px 12px;
+
+	transition: 0.7s, width 0.1s;
+
+	border: 1px solid #E2E3E5;
+	border-radius: 5px;
+	background: white;
+}
+
+.trackMove {
+	left: calc(100% - 134px);
+
+	width: 133px;
+}
+
+.icon {
+	margin-right: 10.05px;
+	filter:
+		invert(34%) sepia(9%) saturate(816%) hue-rotate(178deg)
+		brightness(89%) contrast(90%);
+}
+
+.iconActive {
+	filter:
+		invert(39%) sepia(83%) saturate(5475%) hue-rotate(233deg)
+		brightness(107%) contrast(87%);
+}
+
+.sliderBg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.runtimeBg {
+	width: 108px;
+}
+
+.constructorBg {
+	width: 133px;
+}
+
+.sliderBg p,
+.track p {
+	position: relative;
+	bottom: 1px;
+}

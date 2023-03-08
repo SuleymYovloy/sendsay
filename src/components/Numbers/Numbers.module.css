@@ -1,0 +1,10 @@
+.numbers {
+	position: relative;
+
+	display: inline-block;
+
+	width: 240px;
+	height: 224px;
+	margin-bottom: 12px;
+	padding: 4px;
+}

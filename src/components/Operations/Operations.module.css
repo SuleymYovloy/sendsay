@@ -1,0 +1,9 @@
+.operations {
+	position: relative;
+
+	display: inline-block;
+
+	height: 56px;
+	margin-bottom: 12px;
+	padding: 4px;
+}

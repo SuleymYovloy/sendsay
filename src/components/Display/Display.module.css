@@ -1,0 +1,52 @@
+.displayWrapper {
+	position: relative;
+
+	display: inline-block;
+
+	margin-bottom: 12px;
+	padding: 4px;
+}
+
+.display {
+	width: 232px;
+	height: 52px;
+	padding: 4px 8px;
+
+	text-align: right;
+
+	color: #111827;
+	border: none;
+	border-radius: 6px;
+	outline: none;
+	background-color: var(--grey-bg);
+
+	font-family: var(--inter);
+
+	font-size: 36px;
+
+
+	font-weight: 800;
+	line-height: 44px;
+}
+
+.dropAreaFull {
+	top: 0;
+
+	height: 66px;
+}
+
+.cursorDisabled {
+	cursor: not-allowed;
+}
+
+.bigNum {
+	padding-top: 25px;
+
+	font-size: 19px;
+}
+
+.message {
+	padding-top: 25px;
+
+	font-size: 24px;
+}
